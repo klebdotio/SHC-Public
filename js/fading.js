@@ -1,3 +1,3 @@
 $(window).load(function() {
-$("body").animate({ opacity: 1 }, 700);
-});
+	$("body").animate({ opacity: 1 }, 700);
+	});
