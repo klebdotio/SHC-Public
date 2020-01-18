@@ -4067,11 +4067,26 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
 }
 
+.nav-text {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
 }
 
+.nav-text:hover, .nav-text:focus {
+  text-decoration: none;
+}
+
 .nav-link.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+
+.nav-text.disabled {
   color: #6c757d;
   pointer-events: none;
   cursor: default;
